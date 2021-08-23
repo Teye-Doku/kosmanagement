@@ -1,0 +1,13 @@
+.headernav {
+  background-color: #31414e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+}
+.headernav > span {
+  color: white;
+  font-weight: 900;
+  padding-left: 30px;
+  cursor: pointer;
+}

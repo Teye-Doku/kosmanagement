@@ -1,0 +1,42 @@
+.record {
+  display: flex;
+  height: 70px;
+  width: 300px;
+  justify-content: space-evenly;
+  border: 1.5px solid #dddddd;
+  margin-left: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-items: center;
+  position: relative;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+.record:hover {
+  background-color: #f5f5f5;
+}
+.record__detail {
+  display: flex;
+  flex-direction: column;
+}
+.record__name {
+  font-weight: bold;
+  color: gray;
+}
+.record__date {
+  font-size: 10px;
+  font-weight: 500;
+}
+.record__options {
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid #dddddd;
+  right: -70px;
+  bottom: 50px;
+  width: 100px;
+  background-color: white;
+  border-radius: 5px;
+  height: 50%;
+}

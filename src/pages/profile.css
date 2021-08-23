@@ -1,0 +1,27 @@
+.main {
+  display: flex;
+  height: auto;
+}
+.sidebar {
+  width: 15%;
+  background-color: #2f3036;
+  height: 90vh;
+}
+.sidebar p {
+  color: white;
+  font-weight: 900;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.mainview__display {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 40px;
+}

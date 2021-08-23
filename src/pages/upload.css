@@ -1,0 +1,39 @@
+.update {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.update__logo {
+  width: 200px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+.update__body {
+  width: 300px;
+  height: fit-content;
+  margin: auto;
+  border: 1px solid #31414e;
+  padding-top: 10px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.update__body > form {
+  display: flex;
+  flex-direction: column;
+}
+.update__body > form > input {
+  height: 25px;
+  margin-bottom: 10px;
+}
+.update__body > form > input:focus {
+  outline: none;
+}
+.update__body > form > button {
+  height: 30px;
+  background-color: #31414e;
+  color: white;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  border-radius: 5px;
+}
